@@ -1,0 +1,11 @@
+r1 <- c(1987, 'TW Roh', 89.2)
+r2 <- c(1992, 'YS Kim', 81.9)
+r3 <- c(1997, 'DJ Kim', 80.7)
+r4 <- c(2002, 'MH Roh', 70.8)
+r5 <- c(2007, 'MB Lee', 63.0)
+r6 <- c(2012, 'GH Park', 75.8)
+
+national.election <- data.frame(rbind(r1, r2, r3, r4, r5, r6))
+colnames(national.election) <- c('year', 'president', 'rate')
+head(national.election)
+nrow(national.election)
